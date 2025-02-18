@@ -1,6 +1,7 @@
 library(dplyr)
 
-csv_file <- "C:/Downloads/peacock/simulated_race.csv"
+# csv_file <- "C:/Downloads/peacock/simulated_race.csv"
+csv_file <- "https://raw.githubusercontent.com/dataconsumer101/code-assignment/refs/heads/main/engineering/f1-pipeline/R/simulated_race.csv"
 
 df_raw <- read.csv(csv_file)
 
